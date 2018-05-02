@@ -1,8 +1,16 @@
 function paragraphSelector() {
-  var selector = ${"p"}
+  var selector = $("p")
   return selector;
 }
 
 function lastImageSelector() {
-  return ${'img':lastChild} 
+  return $('img:last')
+}
+
+function ninjaBabySelector() {
+  return $('#baby-ninja')
+}
+
+function divSelector() {
+  return $('div.pics')
 }
